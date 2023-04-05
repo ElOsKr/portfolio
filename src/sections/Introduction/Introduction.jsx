@@ -1,16 +1,13 @@
 import React from 'react'
 import { ImgContainer, MainContainer, UserCV, UserDescription, UserJob, UserMedia, UserName } from './IntroductionStyle'
-import img from '../../assets/foto_placeholder.jpg'
-import user from '../../data/user.json'
+import { user } from '../../data/user'
 
 function Introduction() {
-
-    
 
   return (
     <MainContainer>
         <ImgContainer>
-            <img src={img} alt="oscarImg" />
+            <img src={user.image} alt="oscarImg" />
         </ImgContainer>
         <UserName>
             {user.name}

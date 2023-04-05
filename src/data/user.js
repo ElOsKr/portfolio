@@ -1,6 +1,8 @@
-{
+import userPhoto from '../assets/foto_placeholder.jpg';
+
+export const user = {
     "name": "Óscar José Alcivar Quijije",
-    "image": "../../assets/images/foto_placeholder.jpg",
+    "image": userPhoto,
     "job": "FullStack Developer",
     "cv": "https://drive.google.com/file/d/1Qb78viUHT1WiaTxf77gEsoW93zDr3pOg/view?usp=sharing",
     "aboutMe": [
