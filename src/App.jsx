@@ -10,6 +10,7 @@ function App() {
       <Introduction />
       <hr /> 
       <Stack/>
+      <hr />
     </div>
   )
 }

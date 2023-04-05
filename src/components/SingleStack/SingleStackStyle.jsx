@@ -6,6 +6,13 @@ const StackContainter = styled.div`
     border: 1px solid white;
     margin-top: 20px;
     transition: all .7s;
+    width: 100%;
+    max-width: 600px;
+    min-width: 239px;
+
+    h3{
+        text-align: center;
+    }
 
     &:hover{
         border: 1px solid #00ADB5;
@@ -14,27 +21,21 @@ const StackContainter = styled.div`
 
 const StackList = styled.div`
     display: flex;
+    flex-wrap: wrap;
 `
 
 const Stack = styled.div`
+    font-size: 14px;
     display: flex;
     align-items: center;
-`
-
-const StackImg = styled.div`
-    width: 30px;
-    height: 30px;
-
-    img{
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
+    width: 50%;
+    gap: 10px;
+    justify-content: center;
+    
 `
 
 export{
     StackContainter,
     StackList,
     Stack,
-    StackImg
 }

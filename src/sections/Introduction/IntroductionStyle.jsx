@@ -29,7 +29,8 @@ const UserJob = styled.p`
 const UserDescription = styled.div`
     padding-left: 10%;
     h1{
-        border-bottom: 1px solid white
+        border-bottom: 1px solid white;
+        margin: 20px 15% 10px 7%;
     }
 `
 

@@ -8,7 +8,7 @@ function Stack() {
     <MainContainer>
         <h1>Stack</h1>
         {stack.map((stack) => 
-            <SingleStack props={stack} id={stack.title}/>
+            <SingleStack props={stack} key={stack.title}/>
         )}
     </MainContainer>
   )
