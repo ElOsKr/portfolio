@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Stack FrontEnd",
+        "items":[
+            {
+                "id": "html",
+                "name": "HTML5",
+                "icon": "https://cdn-icons-png.flaticon.com/512/5968/5968267.png"
+            }
+        ]
+    },
+    {
+        "title": "Stack BackEnd",
+        "items":[
+            {
+                "id": "php",
+                "name": "PHP",
+                "icon": "https://www.php.net/images/logos/new-php-logo.svg"
+            }
+        ]
+    }
+]
