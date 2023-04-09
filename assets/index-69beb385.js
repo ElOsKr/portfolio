@@ -82,6 +82,7 @@ Error generating stack: `+i.message+`
     }
 
     @media only screen and (min-width: 1000px) {
+        width: 100%;
         padding-left: 0% ;
         h1{
             margin: 0;
@@ -262,7 +263,7 @@ Error generating stack: `+i.message+`
     padding: 20px;
 
     @media only screen and (min-width: 1000px) {
-        margin: 30px -4rem 0 -4rem;
+        margin: 30px -100px 0 -100px;
     }
 `,fp=te.div`
 `,dp=te.div`
