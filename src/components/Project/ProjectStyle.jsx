@@ -45,6 +45,7 @@ const ProjectDescription = styled.div`
 
     h2{
         margin: 0;
+        text-align: center;
     }
 `
 
