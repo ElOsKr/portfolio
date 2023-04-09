@@ -1,4 +1,4 @@
-import userPhoto from '../assets/foto_placeholder.jpg';
+import userPhoto from '../assets/userPhoto.png';
 
 export const user = {
     "name": "Óscar José Alcivar Quijije",

@@ -10,3 +10,14 @@ hr{
   border-bottom: 1px solid white;
 }
 
+@media only screen and (min-width: 1000px) {
+
+  #root{
+    padding: 4rem 4rem 0 4rem;
+  }
+
+  hr{
+    width: 100%;
+  }
+}
+

@@ -6,6 +6,15 @@ const MainContainer = styled.div`
     align-items: center;
 `
 
+const PortfolioContainer = styled.div`
+    @media only screen and (min-width: 1000px) {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+`
+
 export {
-    MainContainer
+    MainContainer,
+    PortfolioContainer
 }

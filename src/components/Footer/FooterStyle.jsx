@@ -9,6 +9,10 @@ const MainContainer = styled.div`
     justify-content: space-between;
     height: auto;
     padding: 20px;
+
+    @media only screen and (min-width: 1000px) {
+        margin: 30px -4rem 0 -4rem;
+    }
 `
 
 const CopyrightContainer = styled.div`

@@ -7,9 +7,10 @@ const MainContainer = styled.div`
 `
 
 const ImgContainer = styled.div`
+    position: relative;
     width: 150px;
-    height: 150px;
-
+    height: 200px;
+    margin: 0 auto;
     img{
         width: 100%;
         height: 100%;
@@ -32,6 +33,13 @@ const UserDescription = styled.div`
         border-bottom: 1px solid white;
         margin: 20px 15% 10px 7%;
     }
+
+    @media only screen and (min-width: 1000px) {
+        padding-left: 0% ;
+        h1{
+            margin: 0;
+        }
+    }
 `
 
 const UserMedia = styled.div`
@@ -40,6 +48,14 @@ const UserMedia = styled.div`
     flex-direction: column;
     bottom: 390px;
     left: 5%;
+
+    @media only screen and (min-width: 1000px) {
+        position: static;
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+    }
+
 `
 
 const UserCV = styled.a`
@@ -55,6 +71,28 @@ const UserCV = styled.a`
         color: white;
     }
 `
+const UserContainer = styled.div`
+    text-align: center;
+
+    @media only screen and (min-width: 1000px) {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+`
+
+const EditPhoto = styled.div`
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 200px;
+    background: linear-gradient(rgba(34, 40, 49, 0) 0%, rgba(34, 40, 49, 0.2) 50%, rgba(34, 40, 49, 0.5) 80%, rgb(34, 40, 49) 100%);
+`
+
+const UserData = styled.div`
+
+`
 
 export {
     MainContainer,
@@ -63,5 +101,8 @@ export {
     UserJob,
     UserDescription,
     UserMedia,
-    UserCV
+    UserCV,
+    UserContainer,
+    UserData,
+    EditPhoto
 }

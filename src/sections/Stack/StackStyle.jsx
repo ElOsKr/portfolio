@@ -6,6 +6,14 @@ const MainContainer = styled.div`
     align-items: center;
 `
 
+const StackContainer = styled.div`
+    @media only screen and (min-width: 1000px) {
+        display: flex;
+        gap: 20px;
+    }
+`
+
 export {
-    MainContainer
+    MainContainer,
+    StackContainer
 }
