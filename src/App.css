@@ -1,5 +1,4 @@
 #root {
-  max-width: 1280px;
   margin: 0 auto;
   padding: 2rem 2rem 0 2rem;
 }
@@ -13,7 +12,7 @@ hr{
 @media only screen and (min-width: 1000px) {
 
   #root{
-    padding: 4rem 4rem 0 4rem;
+    padding: 5% 100px 0 100px;
   }
 
   hr{

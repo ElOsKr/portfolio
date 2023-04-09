@@ -11,7 +11,7 @@ const MainContainer = styled.div`
     padding: 20px;
 
     @media only screen and (min-width: 1000px) {
-        margin: 30px -4rem 0 -4rem;
+        margin: 30px -100px 0 -100px;
     }
 `
 

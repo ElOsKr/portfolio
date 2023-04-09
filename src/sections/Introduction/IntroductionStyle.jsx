@@ -35,6 +35,7 @@ const UserDescription = styled.div`
     }
 
     @media only screen and (min-width: 1000px) {
+        width: 100%;
         padding-left: 0% ;
         h1{
             margin: 0;
