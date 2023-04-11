@@ -263,7 +263,11 @@ Error generating stack: `+i.message+`
     padding: 20px;
 
     @media only screen and (min-width: 1000px) {
-        margin: 30px -100px 0 -100px;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        margin: 0;
+        margin-top: 50px;
     }
 `,fp=te.div`
 `,dp=te.div`
