@@ -31,6 +31,11 @@ const Stack = styled.div`
     width: 50%;
     gap: 10px;
     justify-content: center;
+
+    svg{
+        width: 28px;
+        height: 28px;
+    }
     
 `
 

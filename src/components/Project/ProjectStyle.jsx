@@ -69,8 +69,19 @@ const ProjectOptions = styled.div`
     }
 `
 
+const ProjectStack = styled.div`
+    font-size: 12px;
+    width: 100%;
+    display: flex;
+    column-gap: 10px;
+    flex-wrap: wrap;
+    padding: 0 10px;
+    justify-content: center;
+`
+
 export {
     ProjectContainter,
     ProjectDescription,
-    ProjectOptions
+    ProjectOptions,
+    ProjectStack
 }

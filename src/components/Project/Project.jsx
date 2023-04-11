@@ -1,5 +1,5 @@
 import React from 'react'
-import { ProjectContainter, ProjectDescription, ProjectOptions } from './ProjectStyle'
+import { ProjectContainter, ProjectDescription, ProjectOptions, ProjectStack } from './ProjectStyle'
 
 function Project({props}) {
   return (
@@ -16,6 +16,11 @@ function Project({props}) {
           null
         }
       </ProjectOptions>
+      <ProjectStack>
+        {props.stackUsed.map((item,i)=>
+          <p key={i}>{item}</p>
+        )}
+      </ProjectStack>
     </ProjectDescription>
   </ProjectContainter>
   )

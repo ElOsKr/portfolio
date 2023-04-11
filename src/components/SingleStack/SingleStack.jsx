@@ -8,11 +8,7 @@ function SingleStack({props}) {
         <StackList>
             {props.items.map((item) => 
                 <Stack key={item.id}>
-                            <svg width={item.width} height={item.height}>
-                                {item.icon.map((path, i) => 
-                                    <path d={path} fill='white' key={i}></path>
-                                )}
-                            </svg>
+                    {item.icon}
                     <p>{item.name}</p>
                 </Stack>
             )}
