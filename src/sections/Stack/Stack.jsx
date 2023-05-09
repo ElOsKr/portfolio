@@ -11,8 +11,12 @@ import {
   SiMui,
   SiPhp,
   SiMysql,
+  SiTypescript,
+  SiNodedotjs,
+  SiExpress,
   SiGit,
   SiGithub,
+
 } from 'react-icons/si';
 import { FaJava } from 'react-icons/fa'
 
@@ -76,6 +80,21 @@ function Stack() {
               id: "java",
               name: "Java",
               icon: <FaJava />
+            },
+            {
+              id: "typescript",
+              name: "Typescript",
+              icon: <SiTypescript />
+            },
+            {
+              id: "node",
+              name: "Node",
+              icon: <SiNodedotjs />
+            },
+            {
+              id: "express",
+              name: "Express",
+              icon: <SiExpress />
             }
         ]
     },

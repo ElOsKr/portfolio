@@ -3,8 +3,21 @@ import mirandaPagesPhoto from '../assets/mirandaPages.png'
 import mpdPhoto from '../assets/mpdPhoto.png'
 import mirandaDashboardPhoto from '../assets/mirandaDashboard.png'
 import oxygenShopPhoto from '../assets/oxygenShop.png'
+import mirandaBackendPhoto from '../assets/mirandaBackend.jpg'
 
 export const portfolio = [
+    {
+        "id": "mirandaBackend",
+        "name": "Hotel Miranda Backend",
+        "description": "Hotel backend management",
+        "repository": "https://github.com/ElOsKr/miranda-backend",
+        "photo": mirandaBackendPhoto,
+        "stackUsed":[
+            "Node",
+            "Express",
+            "MySQL"
+        ]
+    },
     {
         "id": "mirandaDashboard",
         "name": "Hotel Miranda Dashboard",
