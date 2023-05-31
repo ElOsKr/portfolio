@@ -15,7 +15,8 @@ export const portfolio = [
         "stackUsed":[
             "Node",
             "Express",
-            "MySQL"
+            "MySQL",
+            "MongoDB"
         ]
     },
     {

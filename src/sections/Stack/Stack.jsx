@@ -16,7 +16,7 @@ import {
   SiExpress,
   SiGit,
   SiGithub,
-
+  SiMongodb
 } from 'react-icons/si';
 import { FaJava } from 'react-icons/fa'
 
@@ -95,6 +95,11 @@ function Stack() {
               id: "express",
               name: "Express",
               icon: <SiExpress />
+            },
+            {
+              id: "mongodb",
+              name: "MongoDB",
+              icon: <SiMongodb />
             }
         ]
     },

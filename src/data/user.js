@@ -4,7 +4,7 @@ export const user = {
     "name": "Óscar José Alcivar Quijije",
     "image": userPhoto,
     "job": "FullStack Developer",
-    "cv": "https://drive.google.com/file/d/1Qb78viUHT1WiaTxf77gEsoW93zDr3pOg/view?usp=sharing",
+    "cv": "https://drive.google.com/file/d/1bZ6V8S1t36IEMdDfU-c4s77hHi5u_6RE/view?usp=sharing",
     "aboutMe": [
         "¡Muy buenas! Me llamo Óscar José Alcivar Quijije, soy un Desarrollador Web FullStack.",
         "Siempre estoy dispuesto a aprender nuevas tecnologías que me permitan seguir evolucionando como desarrollador.",
