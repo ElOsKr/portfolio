@@ -6,6 +6,22 @@ import oxygenShopPhoto from '../assets/oxygenShop.png'
 import mirandaBackendPhoto from '../assets/mirandaBackend.jpg'
 
 export const portfolio = [
+        {
+        "id": "mirandaDashboard",
+        "name": "Hotel Miranda Dashboard (Access to AWS Database)",
+        "description": "Hotel dashboard",
+        "repository": "https://github.com/ElOsKr/miranda_dashboard/tree/api-connection",
+        "website": "http://oscarmirandadashboardapi.s3-website.eu-west-3.amazonaws.com/miranda_dashboard/login",
+        "photo": mirandaDashboardPhoto,
+        "stackUsed":[
+            "HTML5",
+            "CSS3",
+            "JS",
+            "React",
+            "Redux",
+            "StyledComponents"
+        ]
+    },
     {
         "id": "mirandaBackend",
         "name": "Hotel Miranda Backend",
@@ -21,7 +37,7 @@ export const portfolio = [
     },
     {
         "id": "mirandaDashboard",
-        "name": "Hotel Miranda Dashboard",
+        "name": "Hotel Miranda Dashboard (Static Data)",
         "description": "Hotel dashboard",
         "repository": "https://github.com/ElOsKr/miranda_dashboard",
         "website": "https://eloskr.github.io/miranda_dashboard/",
